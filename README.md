@@ -1,4 +1,4 @@
-# SVD — Compressão de Imagens por Decomposição em Valores Singulares
+# Compressão de Imagens via Decomposição em Valores Singulares (SVD)
 
 Projeto de **Iniciação Científica** que estuda a aplicação da **Decomposição em Valores Singulares (SVD)** na compressão de imagens.
 
@@ -16,7 +16,7 @@ Mantendo apenas os $k$ maiores valores singulares, obtém-se a melhor aproximaç
 
 $$A_k = U_k \Sigma_k V_k^T = \sum_{i=1}^{k} \sigma_i \, u_i v_i^T$$
 
-Em vez de armazenar $m \times n$ valores, guardam-se apenas $U_k$, $\Sigma_k$ e $V_k$. Quanto menor o *k*, maior a compressão — e maior a perda de qualidade.
+Em vez de armazenar $m \times n$ valores, guardam-se apenas $U_k$, $\Sigma_k$ e $V_k$. Quanto menor o *k*, maior a compressão e maior a perda de qualidade.
 
 **Tratamento por tipo de imagem**
 
