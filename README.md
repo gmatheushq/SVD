@@ -1,6 +1,6 @@
 # Compressão de Imagens via Decomposição em Valores Singulares (SVD)
 
-Projeto de **Iniciação Científica** que estuda a aplicação da **Decomposição em Valores Singulares (SVD)** na compressão de imagens.
+Projeto de Iniciação Científica, financiado pela CNPq, que estuda a aplicação da Decomposição em Valores Singulares (SVD) na compressão de imagens.
 
 O código decompõe a imagem, gera aproximações de posto reduzido, calcula métricas de qualidade e de compressão e produz os resultados para diferentes valores de *k*, permitindo analisar a relação entre **redução de armazenamento** e **preservação da informação**. O relatório final apresenta a metodologia, os resultados experimentais e as principais observações do estudo.
 
